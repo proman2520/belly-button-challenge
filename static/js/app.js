@@ -59,6 +59,7 @@ function barChart(sample) {
         let xticks = sample_values.slice(0,10).reverse();
         let labels = otu_labels.slice(0,10).reverse();
 
+        //Plot
         let trace = {
             x: xticks,
             y: yticks,
@@ -91,6 +92,7 @@ function bubbleChart(sample) {
 
         console.log(otu_ids, otu_labels, sample_values);
 
+        //Plot
         let trace = {
             x: otu_ids,
             y: sample_values,
@@ -138,7 +140,7 @@ function metadata(sample) {
 };
 
 // function gaugeChart() {
-    //Put in bonus.js
+    //Still to do
 // }
 
 function optionChanged(new_sample) {
@@ -155,3 +157,12 @@ function optionChanged(new_sample) {
 
 //Call the initialize function
 init();
+
+
+//Still to do
+//      Extra assignment (gauge chart)
+//      Fix layout of website, decorate it
+//      Clean up inefficient code
+//      ReadMe and review rubric and code
+//      Deploy website to GitHub pages (?)
+//      Submit on GitHub
