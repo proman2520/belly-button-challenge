@@ -139,10 +139,6 @@ function metadata(sample) {
 
 };
 
-// function gaugeChart() {
-    //Still to do
-// }
-
 function optionChanged(new_sample) {
 
     //Log new value
@@ -155,14 +151,17 @@ function optionChanged(new_sample) {
 
 };
 
+// function gaugeChart() {
+    //Still to do
+// }
+
 //Call the initialize function
 init();
-
 
 //Still to do
 //      Extra assignment (gauge chart)
 //      Fix layout of website, decorate it
 //      Clean up inefficient code
 //      ReadMe and review rubric and code
-//      Deploy website to GitHub pages (?)
+//      Deploy website to GitHub pages
 //      Submit on GitHub
